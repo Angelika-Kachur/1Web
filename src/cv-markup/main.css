@@ -1,0 +1,218 @@
+/* Basic */
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: #551a8b;
+  text-decoration: none;
+}
+
+.cv {
+  display: flex;
+}
+
+/* Aside */
+.aside {
+  padding: 15px 12px 10px;
+  color: #fff;
+  background: #313924eb;
+  background: #402d73;
+  -webkit-print-color-adjust: exact;
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+}
+
+.aside a {
+  color: #fff;
+}
+
+.aside .info {
+  display: flex;
+  flex-direction: column;
+}
+
+.aside .info .name {
+  font-size: 26px;
+  margin: 0 0 15px;
+}
+
+.aside .info a {
+  margin: 0 0 10px;
+}
+
+.aside .about-list {
+  margin: 0 0 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.aside .about-list li {
+  margin: 0 0 2px;
+}
+
+.aside .add-links {
+  font-size: 14px;
+}
+
+.aside .add-links a {
+  margin: 0 0 5px;
+}
+
+.aside .notes {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.aside .list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* Main */
+.main {
+  display: flex;
+  padding: 10px 20px;
+}
+
+.main .col {
+  margin: 0 40px 0 0;
+}
+
+.main .col:last-child {
+  margin: 0;
+}
+
+/* Photo */
+.photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 0 auto 25px;
+}
+
+.block {}
+
+.block .title {
+  text-transform: uppercase;
+}
+
+/* Skills */
+.skills-block {}
+
+.skills {
+  display: flex;
+}
+
+.skills .list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.skills .list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 10px;
+}
+
+.skills .name {
+  margin: 0 10px 0 0;
+}
+
+.skills .rates {
+  display: flex;
+  margin: 0 -3px;
+}
+
+.skills .rates .point {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100px;
+  background: #e2e2e2;
+  margin: 0 3px;
+  -webkit-print-color-adjust: exact;
+}
+
+.skills .rates .active {
+  background: #ffc22f;
+  -webkit-print-color-adjust: exact;
+}
+
+/* Experience */
+.experience-block {}
+
+.experience-list {}
+
+.experience {
+  margin: 0 0 18px;
+}
+
+.experience:last-child {
+  margin: 0;
+}
+
+.experience .company-name {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0 0 3px;
+}
+
+.experience .info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 5px;
+}
+
+.experience .position {
+  font-weight: 700;
+}
+
+.experience .time {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.experience .text {
+  font-size: 17px;
+  color: #585858;
+}
+
+.experience a {}
+
+/* Hobbies */
+.hobbies {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.hobbies li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 0 10px;
+}
+
+
+@page {
+  size: 21cm 29.7cm;
+  margin: 0;
+  padding: 0;
+}
